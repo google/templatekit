@@ -22,6 +22,7 @@
 #import "Internal/Core/TPLValueProvider.h"
 #import "Internal/Core/TPLViewModel+Internal.h"
 #import "Public/Core/TPLAccessibility.h"
+#import "Public/Core/TPLDebugger.h"
 #import "Public/Core/TPLSettings.h"
 #import "Public/Core/TPLViewModifier.h"
 
