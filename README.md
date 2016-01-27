@@ -13,7 +13,11 @@ population, and layout. View code written with TemplateKit is much
 shorter and more readable than code written with the raw UIView API.
 
 For example, to implement a classic table view cell with an image on
-the left and two stacked texts on the right, you would just write:
+the left and two stacked texts on the right like this:
+
+<img src="https://github.com/google/templatekit/blob/master/ExampleView.png" align="left" height="60" width="208" /><br><br><br>
+
+you would just write:
 
     // From SampleApp/Templates/FirstExample.m.
     
