@@ -1,0 +1,950 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA0316421C23CC03000A2D23 /* libTemplateKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA0315C51C23C798000A2D23 /* libTemplateKit.a */; };
+		BA0316511C23CC9C000A2D23 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA03164D1C23CC9C000A2D23 /* Info.plist */; };
+		BA0316531C23CC9C000A2D23 /* TPLTestingUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0316501C23CC9C000A2D23 /* TPLTestingUtil.m */; };
+		BA355EB01C37AB2100BB8EE8 /* duck.png in Resources */ = {isa = PBXBuildFile; fileRef = BA355EAF1C37AB2100BB8EE8 /* duck.png */; };
+		BA4E01C91C35166C00917CAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4E01C81C35166C00917CAF /* main.m */; };
+		BA4E01CC1C35166C00917CAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4E01CB1C35166C00917CAF /* AppDelegate.m */; };
+		BA4E01CF1C35166C00917CAF /* SampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4E01CE1C35166C00917CAF /* SampleViewController.m */; };
+		BA4E01D41C35166C00917CAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA4E01D31C35166C00917CAF /* Assets.xcassets */; };
+		BA4E01D71C35166C00917CAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA4E01D51C35166C00917CAF /* LaunchScreen.storyboard */; };
+		BA4E01DF1C35185600917CAF /* TemplateKit_Sources.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9B2B951C33A0F200D4382C /* TemplateKit_Sources.m */; };
+		BA4E01E31C351CD700917CAF /* FirstExample.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4E01E21C351CD700917CAF /* FirstExample.m */; };
+		BA5B445F1C4E5D8900E3715B /* LabelExample.m in Sources */ = {isa = PBXBuildFile; fileRef = BA5B445E1C4E5D8900E3715B /* LabelExample.m */; };
+		BA753A031C40B7A800E207E5 /* TPLColumnLayoutTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BA753A021C40B7A800E207E5 /* TPLColumnLayoutTest.m */; };
+		BA753A061C40DDD100E207E5 /* TPLLayoutConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = BA753A051C40DDD100E207E5 /* TPLLayoutConfig.m */; };
+		BA753A091C4103CA00E207E5 /* TPLDebugger.m in Sources */ = {isa = PBXBuildFile; fileRef = BA753A081C4103CA00E207E5 /* TPLDebugger.m */; };
+		BA753A0D1C4131EF00E207E5 /* TPLValueProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = BA753A0C1C4131EF00E207E5 /* TPLValueProvider.m */; };
+		BA753A101C42B19F00E207E5 /* TPLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = BA753A0F1C42B19F00E207E5 /* TPLUtils.m */; };
+		BA808FC81C38B740004CBB80 /* TPLContextualSpaceSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = BA808FC71C38B740004CBB80 /* TPLContextualSpaceSelector.m */; };
+		BA808FCD1C38E315004CBB80 /* SpaceExample.m in Sources */ = {isa = PBXBuildFile; fileRef = BA808FCC1C38E315004CBB80 /* SpaceExample.m */; };
+		BA808FD41C38F970004CBB80 /* TPLCompositeDesriptorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BA808FD31C38F970004CBB80 /* TPLCompositeDesriptorTest.m */; };
+		BA808FD51C38FBF7004CBB80 /* TPLRowLayoutTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BA808FD01C38F914004CBB80 /* TPLRowLayoutTest.m */; };
+		BA808FD61C38FBFD004CBB80 /* TPLContextualSpaceSelectorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BA808FCF1C38F914004CBB80 /* TPLContextualSpaceSelectorTest.m */; };
+		BA808FD81C39009A004CBB80 /* TPLMultiplexerViewDescriptorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BA808FD71C39009A004CBB80 /* TPLMultiplexerViewDescriptorTest.m */; };
+		BA9B2B761C339FF500D4382C /* TPLAccessibility.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9B2B271C339FF500D4382C /* TPLAccessibility.m */; };
+		BA9B2B771C339FF500D4382C /* TPLBenchmark.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9B2B291C339FF500D4382C /* TPLBenchmark.m */; };
+		BA9B2B791C339FF500D4382C /* TPLRootView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9B2B2D1C339FF500D4382C /* TPLRootView.m */; };
+		BA9B2B7A1C339FF500D4382C /* TPLRootViewDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9B2B2F1C339FF500D4382C /* TPLRootViewDescriptor.m */; };
+		BA9B2B7B1C339FF500D4382C /* TPLSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9B2B301C339FF500D4382C /* TPLSettings.m */; };
+		BA9B2B7C1C339FF500D4382C /* TPLCoreMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9B2B321C339FF500D4382C /* TPLCoreMacros.m */; };
+		BA9B2B7D1C339FF500D4382C /* TPLViewDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9B2B341C339FF500D4382C /* TPLViewDescriptor.m */; };
+		BA9B2B7E1C339FF500D4382C /* TPLViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9B2B361C339FF500D4382C /* TPLViewModel.m */; };
+		BA9B2B801C339FF500D4382C /* TPLClientDataViewDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9B2B3B1C339FF500D4382C /* TPLClientDataViewDescriptor.m */; };
+		BA9B2B811C339FF500D4382C /* TPLClientSimpleViewDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9B2B3D1C339FF500D4382C /* TPLClientSimpleViewDescriptor.m */; };
+		BA9B2B821C339FF500D4382C /* TPLColumnLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9B2B3F1C339FF500D4382C /* TPLColumnLayout.m */; };
+		BA9B2B831C339FF500D4382C /* TPLCompositeViewDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9B2B411C339FF500D4382C /* TPLCompositeViewDescriptor.m */; };
+		BA9B2B841C339FF500D4382C /* TPLContainerViewDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9B2B431C339FF500D4382C /* TPLContainerViewDescriptor.m */; };
+		BA9B2B851C339FF500D4382C /* TPLDataViewDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9B2B451C339FF500D4382C /* TPLDataViewDescriptor.m */; };
+		BA9B2B861C339FF500D4382C /* TPLGridDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9B2B481C339FF500D4382C /* TPLGridDescriptor.m */; };
+		BA9B2B871C339FF500D4382C /* TPLImageDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9B2B4A1C339FF500D4382C /* TPLImageDescriptor.m */; };
+		BA9B2B881C339FF500D4382C /* TPLLabelDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9B2B4C1C339FF500D4382C /* TPLLabelDescriptor.m */; };
+		BA9B2B891C339FF500D4382C /* TPLMultiplexerViewDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9B2B4E1C339FF500D4382C /* TPLMultiplexerViewDescriptor.m */; };
+		BA9B2B8B1C339FF500D4382C /* TPLRepeatedDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9B2B521C339FF500D4382C /* TPLRepeatedDescriptor.m */; };
+		BA9B2B8C1C339FF500D4382C /* TPLRowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9B2B541C339FF500D4382C /* TPLRowLayout.m */; };
+		BA9B2B8D1C339FF500D4382C /* TPLSelectViewDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9B2B561C339FF500D4382C /* TPLSelectViewDescriptor.m */; };
+		BA9B2B8E1C339FF500D4382C /* TPLSpaceDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9B2B581C339FF500D4382C /* TPLSpaceDescriptor.m */; };
+		BA9B2B8F1C339FF500D4382C /* TPLBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9B2B5B1C339FF500D4382C /* TPLBuilder.m */; };
+		BA9B2B901C339FF500D4382C /* TPLBuilderFactoryExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9B2B5C1C339FF500D4382C /* TPLBuilderFactoryExtension.m */; };
+		BA9B2B911C339FF500D4382C /* TPLBuilderUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9B2B5E1C339FF500D4382C /* TPLBuilderUtil.m */; };
+		BA9B2B921C339FF500D4382C /* TPLDSLMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9B2B5F1C339FF500D4382C /* TPLDSLMacros.m */; };
+		BA9B2B931C339FF500D4382C /* TPLViewtemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9B2B611C339FF500D4382C /* TPLViewtemplate.m */; };
+		BAAEA7E41C4B2B63001DF008 /* TPLLayerLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAEA7E31C4B2B63001DF008 /* TPLLayerLayout.m */; };
+		BAAEA7E71C4B2EEE001DF008 /* LayerExample.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAEA7E61C4B2EEE001DF008 /* LayerExample.m */; };
+		BAC328C51C4B5069001A3E66 /* RTLExample.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC328C41C4B5069001A3E66 /* RTLExample.m */; };
+		BAC328CD1C4B7E03001A3E66 /* ActivityIndicatorExample.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC328CC1C4B7E03001A3E66 /* ActivityIndicatorExample.m */; };
+		BAC328D01C4B83A2001A3E66 /* TPLClientImmutableDataViewDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC328CF1C4B83A2001A3E66 /* TPLClientImmutableDataViewDescriptor.m */; };
+		BAC328D61C4B85E4001A3E66 /* AdapterExample.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC328D51C4B85E4001A3E66 /* AdapterExample.m */; };
+		BAC328D71C4BA003001A3E66 /* TPLActivityIndicatorDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC328C71C4B7480001A3E66 /* TPLActivityIndicatorDescriptor.m */; };
+		BAC328DB1C4BCEA2001A3E66 /* TPLLabelDescriptorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC328DA1C4BCEA2001A3E66 /* TPLLabelDescriptorTest.m */; };
+		BACFBFE41C33E66500A4A4FA /* TPLView.m in Sources */ = {isa = PBXBuildFile; fileRef = BACFBFE31C33E66500A4A4FA /* TPLView.m */; };
+		BAF53CA71C4C07CF00AA77AF /* PosteditExample.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF53CA61C4C07CF00AA77AF /* PosteditExample.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA0316431C23CC03000A2D23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA0315BD1C23C798000A2D23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA0315C41C23C798000A2D23;
+			remoteInfo = TemplateKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BA0315C31C23C798000A2D23 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BA0315C51C23C798000A2D23 /* libTemplateKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTemplateKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA03163D1C23CC03000A2D23 /* TemplateKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TemplateKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA03164D1C23CC9C000A2D23 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA03164F1C23CC9C000A2D23 /* TPLTestingUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLTestingUtil.h; sourceTree = "<group>"; };
+		BA0316501C23CC9C000A2D23 /* TPLTestingUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLTestingUtil.m; sourceTree = "<group>"; };
+		BA355EAF1C37AB2100BB8EE8 /* duck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = duck.png; sourceTree = "<group>"; };
+		BA4E01C51C35166C00917CAF /* SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA4E01C81C35166C00917CAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA4E01CA1C35166C00917CAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA4E01CB1C35166C00917CAF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA4E01CD1C35166C00917CAF /* SampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleViewController.h; sourceTree = "<group>"; };
+		BA4E01CE1C35166C00917CAF /* SampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleViewController.m; sourceTree = "<group>"; };
+		BA4E01D31C35166C00917CAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA4E01D61C35166C00917CAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA4E01D81C35166C00917CAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA4E01E11C351CD700917CAF /* FirstExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstExample.h; sourceTree = "<group>"; };
+		BA4E01E21C351CD700917CAF /* FirstExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstExample.m; sourceTree = "<group>"; };
+		BA5B445D1C4E5D8900E3715B /* LabelExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelExample.h; sourceTree = "<group>"; };
+		BA5B445E1C4E5D8900E3715B /* LabelExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelExample.m; sourceTree = "<group>"; };
+		BA7539FF1C3FD74800E207E5 /* TemplateKitDeclarations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TemplateKitDeclarations.h; sourceTree = "<group>"; };
+		BA753A001C3FDB9600E207E5 /* TPLConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPLConstants.h; sourceTree = "<group>"; };
+		BA753A011C3FDD1100E207E5 /* TPLDSLDeclarationMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPLDSLDeclarationMacros.h; sourceTree = "<group>"; };
+		BA753A021C40B7A800E207E5 /* TPLColumnLayoutTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLColumnLayoutTest.m; sourceTree = "<group>"; };
+		BA753A041C40DD1F00E207E5 /* TPLLayoutConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPLLayoutConfig.h; sourceTree = "<group>"; };
+		BA753A051C40DDD100E207E5 /* TPLLayoutConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLLayoutConfig.m; sourceTree = "<group>"; };
+		BA753A081C4103CA00E207E5 /* TPLDebugger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLDebugger.m; sourceTree = "<group>"; };
+		BA753A0A1C41056500E207E5 /* TPLDebugger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPLDebugger.h; sourceTree = "<group>"; };
+		BA753A0B1C4131EF00E207E5 /* TPLValueProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLValueProvider.h; sourceTree = "<group>"; };
+		BA753A0C1C4131EF00E207E5 /* TPLValueProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLValueProvider.m; sourceTree = "<group>"; };
+		BA753A0E1C42B14D00E207E5 /* TPLUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPLUtils.h; sourceTree = "<group>"; };
+		BA753A0F1C42B19F00E207E5 /* TPLUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLUtils.m; sourceTree = "<group>"; };
+		BA808FC61C38B740004CBB80 /* TPLContextualSpaceSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLContextualSpaceSelector.h; sourceTree = "<group>"; };
+		BA808FC71C38B740004CBB80 /* TPLContextualSpaceSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLContextualSpaceSelector.m; sourceTree = "<group>"; };
+		BA808FCB1C38E315004CBB80 /* SpaceExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceExample.h; sourceTree = "<group>"; };
+		BA808FCC1C38E315004CBB80 /* SpaceExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceExample.m; sourceTree = "<group>"; };
+		BA808FCF1C38F914004CBB80 /* TPLContextualSpaceSelectorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLContextualSpaceSelectorTest.m; sourceTree = "<group>"; };
+		BA808FD01C38F914004CBB80 /* TPLRowLayoutTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLRowLayoutTest.m; sourceTree = "<group>"; };
+		BA808FD31C38F970004CBB80 /* TPLCompositeDesriptorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLCompositeDesriptorTest.m; sourceTree = "<group>"; };
+		BA808FD71C39009A004CBB80 /* TPLMultiplexerViewDescriptorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLMultiplexerViewDescriptorTest.m; sourceTree = "<group>"; };
+		BA9B2B271C339FF500D4382C /* TPLAccessibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLAccessibility.m; sourceTree = "<group>"; };
+		BA9B2B281C339FF500D4382C /* TPLBenchmark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLBenchmark.h; sourceTree = "<group>"; };
+		BA9B2B291C339FF500D4382C /* TPLBenchmark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLBenchmark.m; sourceTree = "<group>"; };
+		BA9B2B2C1C339FF500D4382C /* TPLRootView+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TPLRootView+Internal.h"; sourceTree = "<group>"; };
+		BA9B2B2D1C339FF500D4382C /* TPLRootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLRootView.m; sourceTree = "<group>"; };
+		BA9B2B2E1C339FF500D4382C /* TPLRootViewDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLRootViewDescriptor.h; sourceTree = "<group>"; };
+		BA9B2B2F1C339FF500D4382C /* TPLRootViewDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLRootViewDescriptor.m; sourceTree = "<group>"; };
+		BA9B2B301C339FF500D4382C /* TPLSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLSettings.m; sourceTree = "<group>"; };
+		BA9B2B311C339FF500D4382C /* TPLCoreMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLCoreMacros.h; sourceTree = "<group>"; };
+		BA9B2B321C339FF500D4382C /* TPLCoreMacros.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLCoreMacros.m; sourceTree = "<group>"; };
+		BA9B2B331C339FF500D4382C /* TPLViewDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLViewDescriptor.h; sourceTree = "<group>"; };
+		BA9B2B341C339FF500D4382C /* TPLViewDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLViewDescriptor.m; sourceTree = "<group>"; };
+		BA9B2B351C339FF500D4382C /* TPLViewModel+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TPLViewModel+Internal.h"; sourceTree = "<group>"; };
+		BA9B2B361C339FF500D4382C /* TPLViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLViewModel.m; sourceTree = "<group>"; };
+		BA9B2B3A1C339FF500D4382C /* TPLClientDataViewDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLClientDataViewDescriptor.h; sourceTree = "<group>"; };
+		BA9B2B3B1C339FF500D4382C /* TPLClientDataViewDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLClientDataViewDescriptor.m; sourceTree = "<group>"; };
+		BA9B2B3C1C339FF500D4382C /* TPLClientSimpleViewDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLClientSimpleViewDescriptor.h; sourceTree = "<group>"; };
+		BA9B2B3D1C339FF500D4382C /* TPLClientSimpleViewDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLClientSimpleViewDescriptor.m; sourceTree = "<group>"; };
+		BA9B2B3E1C339FF500D4382C /* TPLColumnLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLColumnLayout.h; sourceTree = "<group>"; };
+		BA9B2B3F1C339FF500D4382C /* TPLColumnLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLColumnLayout.m; sourceTree = "<group>"; };
+		BA9B2B401C339FF500D4382C /* TPLCompositeViewDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLCompositeViewDescriptor.h; sourceTree = "<group>"; };
+		BA9B2B411C339FF500D4382C /* TPLCompositeViewDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLCompositeViewDescriptor.m; sourceTree = "<group>"; };
+		BA9B2B421C339FF500D4382C /* TPLContainerViewDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLContainerViewDescriptor.h; sourceTree = "<group>"; };
+		BA9B2B431C339FF500D4382C /* TPLContainerViewDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLContainerViewDescriptor.m; sourceTree = "<group>"; };
+		BA9B2B441C339FF500D4382C /* TPLDataViewDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLDataViewDescriptor.h; sourceTree = "<group>"; };
+		BA9B2B451C339FF500D4382C /* TPLDataViewDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLDataViewDescriptor.m; sourceTree = "<group>"; };
+		BA9B2B461C339FF500D4382C /* TPLDescriptorImplsMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLDescriptorImplsMacros.h; sourceTree = "<group>"; };
+		BA9B2B471C339FF500D4382C /* TPLGridDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLGridDescriptor.h; sourceTree = "<group>"; };
+		BA9B2B481C339FF500D4382C /* TPLGridDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLGridDescriptor.m; sourceTree = "<group>"; };
+		BA9B2B491C339FF500D4382C /* TPLImageDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLImageDescriptor.h; sourceTree = "<group>"; };
+		BA9B2B4A1C339FF500D4382C /* TPLImageDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLImageDescriptor.m; sourceTree = "<group>"; };
+		BA9B2B4B1C339FF500D4382C /* TPLLabelDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLLabelDescriptor.h; sourceTree = "<group>"; };
+		BA9B2B4C1C339FF500D4382C /* TPLLabelDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLLabelDescriptor.m; sourceTree = "<group>"; };
+		BA9B2B4D1C339FF500D4382C /* TPLMultiplexerViewDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLMultiplexerViewDescriptor.h; sourceTree = "<group>"; };
+		BA9B2B4E1C339FF500D4382C /* TPLMultiplexerViewDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLMultiplexerViewDescriptor.m; sourceTree = "<group>"; };
+		BA9B2B511C339FF500D4382C /* TPLRepeatedDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLRepeatedDescriptor.h; sourceTree = "<group>"; };
+		BA9B2B521C339FF500D4382C /* TPLRepeatedDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLRepeatedDescriptor.m; sourceTree = "<group>"; };
+		BA9B2B531C339FF500D4382C /* TPLRowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLRowLayout.h; sourceTree = "<group>"; };
+		BA9B2B541C339FF500D4382C /* TPLRowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLRowLayout.m; sourceTree = "<group>"; };
+		BA9B2B551C339FF500D4382C /* TPLSelectViewDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLSelectViewDescriptor.h; sourceTree = "<group>"; };
+		BA9B2B561C339FF500D4382C /* TPLSelectViewDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLSelectViewDescriptor.m; sourceTree = "<group>"; };
+		BA9B2B571C339FF500D4382C /* TPLSpaceDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLSpaceDescriptor.h; sourceTree = "<group>"; };
+		BA9B2B581C339FF500D4382C /* TPLSpaceDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLSpaceDescriptor.m; sourceTree = "<group>"; };
+		BA9B2B5A1C339FF500D4382C /* TPLBuilder+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TPLBuilder+Internal.h"; sourceTree = "<group>"; };
+		BA9B2B5B1C339FF500D4382C /* TPLBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLBuilder.m; sourceTree = "<group>"; };
+		BA9B2B5C1C339FF500D4382C /* TPLBuilderFactoryExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLBuilderFactoryExtension.m; sourceTree = "<group>"; };
+		BA9B2B5D1C339FF500D4382C /* TPLBuilderUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLBuilderUtil.h; sourceTree = "<group>"; };
+		BA9B2B5E1C339FF500D4382C /* TPLBuilderUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLBuilderUtil.m; sourceTree = "<group>"; };
+		BA9B2B5F1C339FF500D4382C /* TPLDSLMacros.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLDSLMacros.m; sourceTree = "<group>"; };
+		BA9B2B601C339FF500D4382C /* TPLViewtemplate+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TPLViewtemplate+Internal.h"; sourceTree = "<group>"; };
+		BA9B2B611C339FF500D4382C /* TPLViewtemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLViewtemplate.m; sourceTree = "<group>"; };
+		BA9B2B671C339FF500D4382C /* TPLAccessibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLAccessibility.h; sourceTree = "<group>"; };
+		BA9B2B681C339FF500D4382C /* TPLRootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLRootView.h; sourceTree = "<group>"; };
+		BA9B2B691C339FF500D4382C /* TPLSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLSettings.h; sourceTree = "<group>"; };
+		BA9B2B6A1C339FF500D4382C /* TPLViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLViewModel.h; sourceTree = "<group>"; };
+		BA9B2B6B1C339FF500D4382C /* TPLViewModifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLViewModifier.h; sourceTree = "<group>"; };
+		BA9B2B6D1C339FF500D4382C /* TPLDataViewAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLDataViewAdapter.h; sourceTree = "<group>"; };
+		BA9B2B6E1C339FF500D4382C /* TPLGridConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLGridConfig.h; sourceTree = "<group>"; };
+		BA9B2B6F1C339FF500D4382C /* TPLLabelData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLLabelData.h; sourceTree = "<group>"; };
+		BA9B2B701C339FF500D4382C /* TPLSimpleViewAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLSimpleViewAdapter.h; sourceTree = "<group>"; };
+		BA9B2B721C339FF500D4382C /* TPLBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLBuilder.h; sourceTree = "<group>"; };
+		BA9B2B731C339FF500D4382C /* TPLBuilderFactoryExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLBuilderFactoryExtension.h; sourceTree = "<group>"; };
+		BA9B2B741C339FF500D4382C /* TPLDSLMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLDSLMacros.h; sourceTree = "<group>"; };
+		BA9B2B751C339FF500D4382C /* TPLViewTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLViewTemplate.h; sourceTree = "<group>"; };
+		BA9B2B951C33A0F200D4382C /* TemplateKit_Sources.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemplateKit_Sources.m; sourceTree = "<group>"; };
+		BA9B2B961C33A0F200D4382C /* TemplateKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TemplateKit.h; sourceTree = "<group>"; };
+		BAAEA7E21C4B2B63001DF008 /* TPLLayerLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLLayerLayout.h; sourceTree = "<group>"; };
+		BAAEA7E31C4B2B63001DF008 /* TPLLayerLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLLayerLayout.m; sourceTree = "<group>"; };
+		BAAEA7E51C4B2EEE001DF008 /* LayerExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerExample.h; sourceTree = "<group>"; };
+		BAAEA7E61C4B2EEE001DF008 /* LayerExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerExample.m; sourceTree = "<group>"; };
+		BAC328C31C4B5069001A3E66 /* RTLExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTLExample.h; sourceTree = "<group>"; };
+		BAC328C41C4B5069001A3E66 /* RTLExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTLExample.m; sourceTree = "<group>"; };
+		BAC328C61C4B7480001A3E66 /* TPLActivityIndicatorDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLActivityIndicatorDescriptor.h; sourceTree = "<group>"; };
+		BAC328C71C4B7480001A3E66 /* TPLActivityIndicatorDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLActivityIndicatorDescriptor.m; sourceTree = "<group>"; };
+		BAC328CA1C4B7572001A3E66 /* TPLActivityIndicatorData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPLActivityIndicatorData.h; sourceTree = "<group>"; };
+		BAC328CB1C4B7E03001A3E66 /* ActivityIndicatorExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityIndicatorExample.h; sourceTree = "<group>"; };
+		BAC328CC1C4B7E03001A3E66 /* ActivityIndicatorExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityIndicatorExample.m; sourceTree = "<group>"; };
+		BAC328CE1C4B83A2001A3E66 /* TPLClientImmutableDataViewDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLClientImmutableDataViewDescriptor.h; sourceTree = "<group>"; };
+		BAC328CF1C4B83A2001A3E66 /* TPLClientImmutableDataViewDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLClientImmutableDataViewDescriptor.m; sourceTree = "<group>"; };
+		BAC328D11C4B845A001A3E66 /* TPLImmutableDataViewAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLImmutableDataViewAdapter.h; sourceTree = "<group>"; };
+		BAC328D41C4B85E4001A3E66 /* AdapterExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdapterExample.h; sourceTree = "<group>"; };
+		BAC328D51C4B85E4001A3E66 /* AdapterExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdapterExample.m; sourceTree = "<group>"; };
+		BAC328DA1C4BCEA2001A3E66 /* TPLLabelDescriptorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLLabelDescriptorTest.m; sourceTree = "<group>"; };
+		BACFBFE11C33E51D00A4A4FA /* TPLContentViewDescriptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPLContentViewDescriptor.h; sourceTree = "<group>"; };
+		BACFBFE21C33E5FC00A4A4FA /* TPLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPLView.h; sourceTree = "<group>"; };
+		BACFBFE31C33E66500A4A4FA /* TPLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLView.m; sourceTree = "<group>"; };
+		BAF53CA51C4C07CF00AA77AF /* PosteditExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PosteditExample.h; sourceTree = "<group>"; };
+		BAF53CA61C4C07CF00AA77AF /* PosteditExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PosteditExample.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA0315C21C23C798000A2D23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA03163A1C23CC03000A2D23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA0316421C23CC03000A2D23 /* libTemplateKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA4E01C21C35166C00917CAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA0315BC1C23C798000A2D23 = {
+			isa = PBXGroup;
+			children = (
+				BA9B2B241C339FF500D4382C /* TemplateKit */,
+				BA03163E1C23CC03000A2D23 /* Tests */,
+				BA4E01C61C35166C00917CAF /* SampleApp */,
+				BA0315C61C23C798000A2D23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA0315C61C23C798000A2D23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA0315C51C23C798000A2D23 /* libTemplateKit.a */,
+				BA03163D1C23CC03000A2D23 /* TemplateKitTests.xctest */,
+				BA4E01C51C35166C00917CAF /* SampleApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA03163E1C23CC03000A2D23 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BA808FCE1C38F8C4004CBB80 /* DescriptorImpls */,
+				BA03164D1C23CC9C000A2D23 /* Info.plist */,
+				BA03164F1C23CC9C000A2D23 /* TPLTestingUtil.h */,
+				BA0316501C23CC9C000A2D23 /* TPLTestingUtil.m */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		BA355EAE1C37AB0400BB8EE8 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				BA355EAF1C37AB2100BB8EE8 /* duck.png */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		BA4E01C61C35166C00917CAF /* SampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				BA4E01CA1C35166C00917CAF /* AppDelegate.h */,
+				BA4E01CB1C35166C00917CAF /* AppDelegate.m */,
+				BA4E01D31C35166C00917CAF /* Assets.xcassets */,
+				BA4E01D81C35166C00917CAF /* Info.plist */,
+				BA4E01D51C35166C00917CAF /* LaunchScreen.storyboard */,
+				BA355EAE1C37AB0400BB8EE8 /* Resource */,
+				BA4E01CD1C35166C00917CAF /* SampleViewController.h */,
+				BA4E01CE1C35166C00917CAF /* SampleViewController.m */,
+				BA4E01C71C35166C00917CAF /* Supporting Files */,
+				BA4E01E01C351C8400917CAF /* Templates */,
+			);
+			path = SampleApp;
+			sourceTree = "<group>";
+		};
+		BA4E01C71C35166C00917CAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA4E01C81C35166C00917CAF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA4E01E01C351C8400917CAF /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				BAC328CB1C4B7E03001A3E66 /* ActivityIndicatorExample.h */,
+				BAC328CC1C4B7E03001A3E66 /* ActivityIndicatorExample.m */,
+				BAC328D41C4B85E4001A3E66 /* AdapterExample.h */,
+				BAC328D51C4B85E4001A3E66 /* AdapterExample.m */,
+				BA4E01E11C351CD700917CAF /* FirstExample.h */,
+				BA4E01E21C351CD700917CAF /* FirstExample.m */,
+				BA5B445D1C4E5D8900E3715B /* LabelExample.h */,
+				BA5B445E1C4E5D8900E3715B /* LabelExample.m */,
+				BAAEA7E51C4B2EEE001DF008 /* LayerExample.h */,
+				BAAEA7E61C4B2EEE001DF008 /* LayerExample.m */,
+				BAF53CA51C4C07CF00AA77AF /* PosteditExample.h */,
+				BAF53CA61C4C07CF00AA77AF /* PosteditExample.m */,
+				BAC328C31C4B5069001A3E66 /* RTLExample.h */,
+				BAC328C41C4B5069001A3E66 /* RTLExample.m */,
+				BA808FCB1C38E315004CBB80 /* SpaceExample.h */,
+				BA808FCC1C38E315004CBB80 /* SpaceExample.m */,
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+		BA808FCE1C38F8C4004CBB80 /* DescriptorImpls */ = {
+			isa = PBXGroup;
+			children = (
+				BA753A021C40B7A800E207E5 /* TPLColumnLayoutTest.m */,
+				BA808FD31C38F970004CBB80 /* TPLCompositeDesriptorTest.m */,
+				BA808FCF1C38F914004CBB80 /* TPLContextualSpaceSelectorTest.m */,
+				BAC328DA1C4BCEA2001A3E66 /* TPLLabelDescriptorTest.m */,
+				BA808FD71C39009A004CBB80 /* TPLMultiplexerViewDescriptorTest.m */,
+				BA808FD01C38F914004CBB80 /* TPLRowLayoutTest.m */,
+			);
+			path = DescriptorImpls;
+			sourceTree = "<group>";
+		};
+		BA9B2B241C339FF500D4382C /* TemplateKit */ = {
+			isa = PBXGroup;
+			children = (
+				BA9B2B251C339FF500D4382C /* Internal */,
+				BA9B2B651C339FF500D4382C /* Public */,
+				BA9B2B951C33A0F200D4382C /* TemplateKit_Sources.m */,
+				BA9B2B961C33A0F200D4382C /* TemplateKit.h */,
+				BA7539FF1C3FD74800E207E5 /* TemplateKitDeclarations.h */,
+			);
+			path = TemplateKit;
+			sourceTree = "<group>";
+		};
+		BA9B2B251C339FF500D4382C /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				BA9B2B261C339FF500D4382C /* Core */,
+				BA9B2B391C339FF500D4382C /* DescriptorImpls */,
+				BA9B2B591C339FF500D4382C /* DSL */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		BA9B2B261C339FF500D4382C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				BA9B2B271C339FF500D4382C /* TPLAccessibility.m */,
+				BA9B2B281C339FF500D4382C /* TPLBenchmark.h */,
+				BA9B2B291C339FF500D4382C /* TPLBenchmark.m */,
+				BACFBFE11C33E51D00A4A4FA /* TPLContentViewDescriptor.h */,
+				BA9B2B311C339FF500D4382C /* TPLCoreMacros.h */,
+				BA9B2B321C339FF500D4382C /* TPLCoreMacros.m */,
+				BA753A081C4103CA00E207E5 /* TPLDebugger.m */,
+				BA9B2B2D1C339FF500D4382C /* TPLRootView.m */,
+				BA9B2B2C1C339FF500D4382C /* TPLRootView+Internal.h */,
+				BA9B2B2E1C339FF500D4382C /* TPLRootViewDescriptor.h */,
+				BA9B2B2F1C339FF500D4382C /* TPLRootViewDescriptor.m */,
+				BA9B2B301C339FF500D4382C /* TPLSettings.m */,
+				BA753A0F1C42B19F00E207E5 /* TPLUtils.m */,
+				BA753A0B1C4131EF00E207E5 /* TPLValueProvider.h */,
+				BA753A0C1C4131EF00E207E5 /* TPLValueProvider.m */,
+				BA9B2B331C339FF500D4382C /* TPLViewDescriptor.h */,
+				BA9B2B341C339FF500D4382C /* TPLViewDescriptor.m */,
+				BA9B2B361C339FF500D4382C /* TPLViewModel.m */,
+				BA9B2B351C339FF500D4382C /* TPLViewModel+Internal.h */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		BA9B2B391C339FF500D4382C /* DescriptorImpls */ = {
+			isa = PBXGroup;
+			children = (
+				BAC328C61C4B7480001A3E66 /* TPLActivityIndicatorDescriptor.h */,
+				BAC328C71C4B7480001A3E66 /* TPLActivityIndicatorDescriptor.m */,
+				BA9B2B3A1C339FF500D4382C /* TPLClientDataViewDescriptor.h */,
+				BA9B2B3B1C339FF500D4382C /* TPLClientDataViewDescriptor.m */,
+				BAC328CE1C4B83A2001A3E66 /* TPLClientImmutableDataViewDescriptor.h */,
+				BAC328CF1C4B83A2001A3E66 /* TPLClientImmutableDataViewDescriptor.m */,
+				BA9B2B3C1C339FF500D4382C /* TPLClientSimpleViewDescriptor.h */,
+				BA9B2B3D1C339FF500D4382C /* TPLClientSimpleViewDescriptor.m */,
+				BA9B2B3E1C339FF500D4382C /* TPLColumnLayout.h */,
+				BA9B2B3F1C339FF500D4382C /* TPLColumnLayout.m */,
+				BA9B2B401C339FF500D4382C /* TPLCompositeViewDescriptor.h */,
+				BA9B2B411C339FF500D4382C /* TPLCompositeViewDescriptor.m */,
+				BA9B2B421C339FF500D4382C /* TPLContainerViewDescriptor.h */,
+				BA9B2B431C339FF500D4382C /* TPLContainerViewDescriptor.m */,
+				BA808FC61C38B740004CBB80 /* TPLContextualSpaceSelector.h */,
+				BA808FC71C38B740004CBB80 /* TPLContextualSpaceSelector.m */,
+				BA9B2B441C339FF500D4382C /* TPLDataViewDescriptor.h */,
+				BA9B2B451C339FF500D4382C /* TPLDataViewDescriptor.m */,
+				BA9B2B461C339FF500D4382C /* TPLDescriptorImplsMacros.h */,
+				BA9B2B471C339FF500D4382C /* TPLGridDescriptor.h */,
+				BA9B2B481C339FF500D4382C /* TPLGridDescriptor.m */,
+				BA9B2B491C339FF500D4382C /* TPLImageDescriptor.h */,
+				BA9B2B4A1C339FF500D4382C /* TPLImageDescriptor.m */,
+				BA9B2B4B1C339FF500D4382C /* TPLLabelDescriptor.h */,
+				BA9B2B4C1C339FF500D4382C /* TPLLabelDescriptor.m */,
+				BAAEA7E21C4B2B63001DF008 /* TPLLayerLayout.h */,
+				BAAEA7E31C4B2B63001DF008 /* TPLLayerLayout.m */,
+				BA753A051C40DDD100E207E5 /* TPLLayoutConfig.m */,
+				BA9B2B4D1C339FF500D4382C /* TPLMultiplexerViewDescriptor.h */,
+				BA9B2B4E1C339FF500D4382C /* TPLMultiplexerViewDescriptor.m */,
+				BA9B2B511C339FF500D4382C /* TPLRepeatedDescriptor.h */,
+				BA9B2B521C339FF500D4382C /* TPLRepeatedDescriptor.m */,
+				BA9B2B531C339FF500D4382C /* TPLRowLayout.h */,
+				BA9B2B541C339FF500D4382C /* TPLRowLayout.m */,
+				BA9B2B551C339FF500D4382C /* TPLSelectViewDescriptor.h */,
+				BA9B2B561C339FF500D4382C /* TPLSelectViewDescriptor.m */,
+				BA9B2B571C339FF500D4382C /* TPLSpaceDescriptor.h */,
+				BA9B2B581C339FF500D4382C /* TPLSpaceDescriptor.m */,
+			);
+			path = DescriptorImpls;
+			sourceTree = "<group>";
+		};
+		BA9B2B591C339FF500D4382C /* DSL */ = {
+			isa = PBXGroup;
+			children = (
+				BA9B2B5B1C339FF500D4382C /* TPLBuilder.m */,
+				BA9B2B5A1C339FF500D4382C /* TPLBuilder+Internal.h */,
+				BA9B2B5C1C339FF500D4382C /* TPLBuilderFactoryExtension.m */,
+				BA9B2B5D1C339FF500D4382C /* TPLBuilderUtil.h */,
+				BA9B2B5E1C339FF500D4382C /* TPLBuilderUtil.m */,
+				BA9B2B5F1C339FF500D4382C /* TPLDSLMacros.m */,
+				BACFBFE31C33E66500A4A4FA /* TPLView.m */,
+				BA9B2B611C339FF500D4382C /* TPLViewtemplate.m */,
+				BA9B2B601C339FF500D4382C /* TPLViewtemplate+Internal.h */,
+			);
+			path = DSL;
+			sourceTree = "<group>";
+		};
+		BA9B2B651C339FF500D4382C /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				BA9B2B661C339FF500D4382C /* Core */,
+				BA9B2B6C1C339FF500D4382C /* DescriptorImpls */,
+				BA9B2B711C339FF500D4382C /* DSL */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		BA9B2B661C339FF500D4382C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				BA9B2B671C339FF500D4382C /* TPLAccessibility.h */,
+				BA753A001C3FDB9600E207E5 /* TPLConstants.h */,
+				BA753A0A1C41056500E207E5 /* TPLDebugger.h */,
+				BA9B2B681C339FF500D4382C /* TPLRootView.h */,
+				BA9B2B691C339FF500D4382C /* TPLSettings.h */,
+				BA753A0E1C42B14D00E207E5 /* TPLUtils.h */,
+				BA9B2B6A1C339FF500D4382C /* TPLViewModel.h */,
+				BA9B2B6B1C339FF500D4382C /* TPLViewModifier.h */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		BA9B2B6C1C339FF500D4382C /* DescriptorImpls */ = {
+			isa = PBXGroup;
+			children = (
+				BAC328CA1C4B7572001A3E66 /* TPLActivityIndicatorData.h */,
+				BA9B2B6D1C339FF500D4382C /* TPLDataViewAdapter.h */,
+				BA9B2B6E1C339FF500D4382C /* TPLGridConfig.h */,
+				BAC328D11C4B845A001A3E66 /* TPLImmutableDataViewAdapter.h */,
+				BA9B2B6F1C339FF500D4382C /* TPLLabelData.h */,
+				BA753A041C40DD1F00E207E5 /* TPLLayoutConfig.h */,
+				BA9B2B701C339FF500D4382C /* TPLSimpleViewAdapter.h */,
+			);
+			path = DescriptorImpls;
+			sourceTree = "<group>";
+		};
+		BA9B2B711C339FF500D4382C /* DSL */ = {
+			isa = PBXGroup;
+			children = (
+				BA9B2B721C339FF500D4382C /* TPLBuilder.h */,
+				BA9B2B731C339FF500D4382C /* TPLBuilderFactoryExtension.h */,
+				BA753A011C3FDD1100E207E5 /* TPLDSLDeclarationMacros.h */,
+				BA9B2B741C339FF500D4382C /* TPLDSLMacros.h */,
+				BACFBFE21C33E5FC00A4A4FA /* TPLView.h */,
+				BA9B2B751C339FF500D4382C /* TPLViewTemplate.h */,
+			);
+			path = DSL;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA0315C41C23C798000A2D23 /* TemplateKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA0315CE1C23C798000A2D23 /* Build configuration list for PBXNativeTarget "TemplateKit" */;
+			buildPhases = (
+				BA0315C11C23C798000A2D23 /* Sources */,
+				BA0315C21C23C798000A2D23 /* Frameworks */,
+				BA0315C31C23C798000A2D23 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TemplateKit;
+			productName = TemplateKit;
+			productReference = BA0315C51C23C798000A2D23 /* libTemplateKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BA03163C1C23CC03000A2D23 /* TemplateKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA0316451C23CC03000A2D23 /* Build configuration list for PBXNativeTarget "TemplateKitTests" */;
+			buildPhases = (
+				BA0316391C23CC03000A2D23 /* Sources */,
+				BA03163A1C23CC03000A2D23 /* Frameworks */,
+				BA03163B1C23CC03000A2D23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA0316441C23CC03000A2D23 /* PBXTargetDependency */,
+			);
+			name = TemplateKitTests;
+			productName = TemplateKitTests;
+			productReference = BA03163D1C23CC03000A2D23 /* TemplateKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA4E01C41C35166C00917CAF /* SampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA4E01D91C35166C00917CAF /* Build configuration list for PBXNativeTarget "SampleApp" */;
+			buildPhases = (
+				BA4E01C11C35166C00917CAF /* Sources */,
+				BA4E01C21C35166C00917CAF /* Frameworks */,
+				BA4E01C31C35166C00917CAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleApp;
+			productName = TemplateKitSamples;
+			productReference = BA4E01C51C35166C00917CAF /* SampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA0315BD1C23C798000A2D23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = com.google;
+				TargetAttributes = {
+					BA0315C41C23C798000A2D23 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					BA03163C1C23CC03000A2D23 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					BA4E01C41C35166C00917CAF = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = BA0315C01C23C798000A2D23 /* Build configuration list for PBXProject "TemplateKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA0315BC1C23C798000A2D23;
+			productRefGroup = BA0315C61C23C798000A2D23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA0315C41C23C798000A2D23 /* TemplateKit */,
+				BA03163C1C23CC03000A2D23 /* TemplateKitTests */,
+				BA4E01C41C35166C00917CAF /* SampleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA03163B1C23CC03000A2D23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA0316511C23CC9C000A2D23 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA4E01C31C35166C00917CAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4E01D71C35166C00917CAF /* LaunchScreen.storyboard in Resources */,
+				BA4E01D41C35166C00917CAF /* Assets.xcassets in Resources */,
+				BA355EB01C37AB2100BB8EE8 /* duck.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA0315C11C23C798000A2D23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA9B2B861C339FF500D4382C /* TPLGridDescriptor.m in Sources */,
+				BA9B2B871C339FF500D4382C /* TPLImageDescriptor.m in Sources */,
+				BA9B2B821C339FF500D4382C /* TPLColumnLayout.m in Sources */,
+				BA9B2B7D1C339FF500D4382C /* TPLViewDescriptor.m in Sources */,
+				BA9B2B911C339FF500D4382C /* TPLBuilderUtil.m in Sources */,
+				BA9B2B931C339FF500D4382C /* TPLViewtemplate.m in Sources */,
+				BA753A101C42B19F00E207E5 /* TPLUtils.m in Sources */,
+				BA9B2B921C339FF500D4382C /* TPLDSLMacros.m in Sources */,
+				BA753A061C40DDD100E207E5 /* TPLLayoutConfig.m in Sources */,
+				BA9B2B771C339FF500D4382C /* TPLBenchmark.m in Sources */,
+				BA9B2B8F1C339FF500D4382C /* TPLBuilder.m in Sources */,
+				BACFBFE41C33E66500A4A4FA /* TPLView.m in Sources */,
+				BAC328D71C4BA003001A3E66 /* TPLActivityIndicatorDescriptor.m in Sources */,
+				BA9B2B881C339FF500D4382C /* TPLLabelDescriptor.m in Sources */,
+				BA9B2B8E1C339FF500D4382C /* TPLSpaceDescriptor.m in Sources */,
+				BA9B2B7A1C339FF500D4382C /* TPLRootViewDescriptor.m in Sources */,
+				BA9B2B7C1C339FF500D4382C /* TPLCoreMacros.m in Sources */,
+				BA9B2B851C339FF500D4382C /* TPLDataViewDescriptor.m in Sources */,
+				BA753A0D1C4131EF00E207E5 /* TPLValueProvider.m in Sources */,
+				BA9B2B891C339FF500D4382C /* TPLMultiplexerViewDescriptor.m in Sources */,
+				BA9B2B811C339FF500D4382C /* TPLClientSimpleViewDescriptor.m in Sources */,
+				BA808FC81C38B740004CBB80 /* TPLContextualSpaceSelector.m in Sources */,
+				BA9B2B8B1C339FF500D4382C /* TPLRepeatedDescriptor.m in Sources */,
+				BA9B2B8D1C339FF500D4382C /* TPLSelectViewDescriptor.m in Sources */,
+				BA9B2B8C1C339FF500D4382C /* TPLRowLayout.m in Sources */,
+				BA9B2B7E1C339FF500D4382C /* TPLViewModel.m in Sources */,
+				BAC328D01C4B83A2001A3E66 /* TPLClientImmutableDataViewDescriptor.m in Sources */,
+				BA9B2B831C339FF500D4382C /* TPLCompositeViewDescriptor.m in Sources */,
+				BA9B2B7B1C339FF500D4382C /* TPLSettings.m in Sources */,
+				BA9B2B841C339FF500D4382C /* TPLContainerViewDescriptor.m in Sources */,
+				BAAEA7E41C4B2B63001DF008 /* TPLLayerLayout.m in Sources */,
+				BA9B2B901C339FF500D4382C /* TPLBuilderFactoryExtension.m in Sources */,
+				BA9B2B801C339FF500D4382C /* TPLClientDataViewDescriptor.m in Sources */,
+				BA753A091C4103CA00E207E5 /* TPLDebugger.m in Sources */,
+				BA9B2B761C339FF500D4382C /* TPLAccessibility.m in Sources */,
+				BA9B2B791C339FF500D4382C /* TPLRootView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0316391C23CC03000A2D23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA0316531C23CC9C000A2D23 /* TPLTestingUtil.m in Sources */,
+				BA753A031C40B7A800E207E5 /* TPLColumnLayoutTest.m in Sources */,
+				BA808FD51C38FBF7004CBB80 /* TPLRowLayoutTest.m in Sources */,
+				BA808FD81C39009A004CBB80 /* TPLMultiplexerViewDescriptorTest.m in Sources */,
+				BA808FD61C38FBFD004CBB80 /* TPLContextualSpaceSelectorTest.m in Sources */,
+				BAC328DB1C4BCEA2001A3E66 /* TPLLabelDescriptorTest.m in Sources */,
+				BA808FD41C38F970004CBB80 /* TPLCompositeDesriptorTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA4E01C11C35166C00917CAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4E01E31C351CD700917CAF /* FirstExample.m in Sources */,
+				BA4E01CF1C35166C00917CAF /* SampleViewController.m in Sources */,
+				BAC328D61C4B85E4001A3E66 /* AdapterExample.m in Sources */,
+				BA4E01CC1C35166C00917CAF /* AppDelegate.m in Sources */,
+				BAC328CD1C4B7E03001A3E66 /* ActivityIndicatorExample.m in Sources */,
+				BA808FCD1C38E315004CBB80 /* SpaceExample.m in Sources */,
+				BA4E01DF1C35185600917CAF /* TemplateKit_Sources.m in Sources */,
+				BAC328C51C4B5069001A3E66 /* RTLExample.m in Sources */,
+				BA4E01C91C35166C00917CAF /* main.m in Sources */,
+				BA5B445F1C4E5D8900E3715B /* LabelExample.m in Sources */,
+				BAAEA7E71C4B2EEE001DF008 /* LayerExample.m in Sources */,
+				BAF53CA71C4C07CF00AA77AF /* PosteditExample.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA0316441C23CC03000A2D23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA0315C41C23C798000A2D23 /* TemplateKit */;
+			targetProxy = BA0316431C23CC03000A2D23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA4E01D51C35166C00917CAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA4E01D61C35166C00917CAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA0315CC1C23C798000A2D23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-DTPL_BENCHMARK_LEVEL=1",
+					"-DTPL_ENABLE_DOLLER_SIGN_AS_SELECTOR_BINDER=1",
+				);
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/TemplateKit";
+				WARNING_CFLAGS = "-Wall";
+			};
+			name = Debug;
+		};
+		BA0315CD1C23C798000A2D23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = (
+					"-DTPL_BENCHMARK_LEVEL=1",
+					"-DTPL_ENABLE_DOLLER_SIGN_AS_SELECTOR_BINDER=1",
+				);
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/TemplateKit";
+				VALIDATE_PRODUCT = YES;
+				WARNING_CFLAGS = "-Wall";
+			};
+			name = Release;
+		};
+		BA0315CF1C23C798000A2D23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BA0315D01C23C798000A2D23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BA0316461C23CC03000A2D23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.TemplateKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA0316471C23CC03000A2D23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.TemplateKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BA4E01DA1C35166C00917CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SampleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.TemplateKitSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA4E01DB1C35166C00917CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SampleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.TemplateKitSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA0315C01C23C798000A2D23 /* Build configuration list for PBXProject "TemplateKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA0315CC1C23C798000A2D23 /* Debug */,
+				BA0315CD1C23C798000A2D23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA0315CE1C23C798000A2D23 /* Build configuration list for PBXNativeTarget "TemplateKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA0315CF1C23C798000A2D23 /* Debug */,
+				BA0315D01C23C798000A2D23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA0316451C23CC03000A2D23 /* Build configuration list for PBXNativeTarget "TemplateKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA0316461C23CC03000A2D23 /* Debug */,
+				BA0316471C23CC03000A2D23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA4E01D91C35166C00917CAF /* Build configuration list for PBXNativeTarget "SampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA4E01DA1C35166C00917CAF /* Debug */,
+				BA4E01DB1C35166C00917CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA0315BD1C23C798000A2D23 /* Project object */;
+}
