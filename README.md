@@ -40,5 +40,8 @@ lines if it were implemented with the raw UIView API.
 ##Usage
 Find examples in SampleApp/Templates.
 
+##Discussion Forum
+https://groups.google.com/forum/#!forum/templatekit
+
 ##Disclaimer
 This is not an official Google product.
